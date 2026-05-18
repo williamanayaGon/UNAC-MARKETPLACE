@@ -13,7 +13,7 @@ const RutaProtegida = ({ children }) => {
   const { token } = useAuthStore()
   return token ? children : <Navigate to="/login" replace />
 }
-
+// Ruta para moderadores y administradores
 const RutaModerador = ({ children }) => {
   const { usuario } = useAuthStore()
   if (!usuario) return <Navigate to="/login" replace />
