@@ -11,7 +11,7 @@ import ofertasRoutes from './src/routes/ofertas.routes.js'
 import moderacionRoutes from './src/routes/moderacion.routes.js'
 
 dotenv.config()
-
+//codigo
 const app = express()
 
 // ── Seguridad
